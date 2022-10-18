@@ -58,7 +58,18 @@
   margin:5px;
   border:1px solid;
   cursor:pointer;
+}
 
+.small-button-opacity {
+  display:inline-block;
+  background:#d13415;
+  padding:15px 41px;
+  text-align:center;
+  color:#FFF;
+  margin:5px;
+  border:1px solid;
+  cursor:pointer;
+  opacity: 0.5;
 }
 
 .StudyTime {

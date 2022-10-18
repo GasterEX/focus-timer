@@ -58,6 +58,8 @@ export default function Article (props) {
     const [AveLapTime,setAveLapTime] = useState(0);
     //lapのプログラム
     const lap = () => {
+            //休憩中の時ならばreturn
+            if(doingState === "rest") return;
             //現在の時間を小数第一位で四捨五入し取得
             currentMinute = Math.round((minutes + (seconds/60)) * 100)/100;
             //lapに今の時間をpush
@@ -92,7 +94,7 @@ export default function Article (props) {
             <Timer seconds = {seconds} minutes = {minutes} />
             <AverageTime AveLapTime={AveLapTime} currentMinute={currentMinute}/>
             <MainButton mainButton = {ButtonState} onClick={ButtonStateChange}  />
-            <LapButton lap={props.lap} onClick={lap}/>
+            <LapButton lap={props.lap} onClick={lap} doingState={doingState}/>
             <SkipButton skip={props.skip} doingState = {doingState} onClick={doingStateChange} />
             
             {/* <LapLog LapLog={laps}/> */}
