@@ -1,7 +1,7 @@
 import React from "react";
 import { useTimer } from "react-timer-hook";
 import { useState } from "react";
-import {Title, Description , MainButton , Timer ,LapButton, SkipButton,DoingStates,AverageTime,LapLog} from "./index";
+import {Title, Description , MainButton , Timer ,LapButton, SkipButton,DoingStates,AverageTime} from "./index";
 let laps=[25]
 let LapTimes =[];
 let currentMinute = 0;
@@ -21,7 +21,7 @@ export default function Article (props) {
     const [ButtonState,setButtonState] = useState("START");
     //ボタンのステータスの変更とタイマーの変更
     const ButtonStateChange = () => {
-        if(ButtonState =="START"){
+        if(ButtonState ==="START"){
             //stop
             setButtonState("STOP");
             resume();
@@ -42,7 +42,7 @@ export default function Article (props) {
         currentMinute = 0;  
         setAveLapTime(0);
         //モードの変更
-        if(doingState=="study"){
+        if(doingState==="study"){
             setdoingState("rest");
             const time = new Date();
             time.setSeconds(time.getSeconds() + 300);//5分
