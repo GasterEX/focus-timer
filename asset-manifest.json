@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "./static/css/main.69e41c66.css",
-    "main.js": "./static/js/main.e49164b0.js",
-    "static/js/787.973c3284.chunk.js": "./static/js/787.973c3284.chunk.js",
-    "index.html": "./index.html",
-    "main.69e41c66.css.map": "./static/css/main.69e41c66.css.map",
-    "main.e49164b0.js.map": "./static/js/main.e49164b0.js.map",
-    "787.973c3284.chunk.js.map": "./static/js/787.973c3284.chunk.js.map"
+    "main.css": "/focus-timer/static/css/main.ff5debcf.css",
+    "main.js": "/focus-timer/static/js/main.bd255656.js",
+    "static/js/787.973c3284.chunk.js": "/focus-timer/static/js/787.973c3284.chunk.js",
+    "index.html": "/focus-timer/index.html",
+    "main.ff5debcf.css.map": "/focus-timer/static/css/main.ff5debcf.css.map",
+    "main.bd255656.js.map": "/focus-timer/static/js/main.bd255656.js.map",
+    "787.973c3284.chunk.js.map": "/focus-timer/static/js/787.973c3284.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.69e41c66.css",
-    "static/js/main.e49164b0.js"
+    "static/css/main.ff5debcf.css",
+    "static/js/main.bd255656.js"
   ]
 }
