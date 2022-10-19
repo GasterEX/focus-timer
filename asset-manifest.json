@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/focus-timer/static/css/main.ff5debcf.css",
-    "main.js": "/focus-timer/static/js/main.bd255656.js",
+    "main.css": "/focus-timer/static/css/main.5030f1c3.css",
+    "main.js": "/focus-timer/static/js/main.c3d178d2.js",
     "static/js/787.973c3284.chunk.js": "/focus-timer/static/js/787.973c3284.chunk.js",
     "index.html": "/focus-timer/index.html",
-    "main.ff5debcf.css.map": "/focus-timer/static/css/main.ff5debcf.css.map",
-    "main.bd255656.js.map": "/focus-timer/static/js/main.bd255656.js.map",
+    "main.5030f1c3.css.map": "/focus-timer/static/css/main.5030f1c3.css.map",
+    "main.c3d178d2.js.map": "/focus-timer/static/js/main.c3d178d2.js.map",
     "787.973c3284.chunk.js.map": "/focus-timer/static/js/787.973c3284.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff5debcf.css",
-    "static/js/main.bd255656.js"
+    "static/css/main.5030f1c3.css",
+    "static/js/main.c3d178d2.js"
   ]
 }
